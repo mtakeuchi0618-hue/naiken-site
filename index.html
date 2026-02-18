@@ -6,6 +6,32 @@
 </head>
 <body>
   <h1>内見予約フォーム</h1>
-  <p>ここにフォームを作ります。</p>
+
+  <form>
+    <p>
+      お名前：<br>
+      <input type="text" name="name" required>
+    </p>
+
+    <p>
+      メールアドレス：<br>
+      <input type="email" name="email" required>
+    </p>
+
+    <p>
+      希望日時：<br>
+      <input type="datetime-local" name="date">
+    </p>
+
+    <p>
+      ご質問・ご要望：<br>
+      <textarea name="message" rows="4" cols="40"></textarea>
+    </p>
+
+    <p>
+      <button type="submit">送信</button>
+    </p>
+  </form>
+
 </body>
 </html>
